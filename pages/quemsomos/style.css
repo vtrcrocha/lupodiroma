@@ -1,0 +1,23 @@
+body{
+    font-family: "Sen", sans-serif;
+}
+#title{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+#conteudo{
+    margin: auto;
+    width: 80%;
+}
+
+#conteudo h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#conteudo h3 {
+    margin-top: 50px;
+    
+}
+

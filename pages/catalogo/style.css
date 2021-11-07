@@ -1,0 +1,72 @@
+body{
+    font-family: "Sen", sans-serif;
+}
+#title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+#conteudo{
+    margin: auto;
+    width: 80%;
+}
+
+
+.caneca , 
+.moldura,
+.box,
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 25px;
+}
+
+#conteudo button{
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    background: #00B04D;
+    border-style: solid;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    width: 250px;
+    height: 50px;
+    color: white;
+    
+}
+#conteudo button:hover{
+    transition: .6s;
+    background-color: #600000;
+}
+
+#conteudo a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    .caneca , 
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        padding: 25px;
+    } 
+    .moldura, 
+    .card{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        padding: 25px;
+    } 
+    .logos{
+        max-width: 90%;
+    }
+}

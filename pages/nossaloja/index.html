@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/footer.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/rome.png" type="image/x-icon">
+
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sen:wght@400;700;800&display=swap');
+    </style>
+
+
+
+    <title>Roma Di Lupa | nossa loja</title>
+</head>
+<body>
+    <header class="header">
+        <!--Criação do container para a navegação do site- Victor Souza  -->
+        <a href="/index.html"><img id="logo" src="/images/logo-grafica.svg" alt=""></a>
+        
+        <nav class="navbar">
+
+           
+             <!--menu para a versão de computador -->
+            <div>
+                <ul class="nav-pc" id="nav-pc">
+                    <li><a href="/pages/nossaloja/index.html"> Nossa Loja</a></li>
+                    <li><a href="/pages/quemsomos/index.html">Quem Somos </a></li>
+                    <li><a href="/pages/oquefazemos/">Oque Fazemos</a></li>
+                    <li><a href="/pages/catalogo/index.html">Catalogo</a></li>
+                </ul>
+            </div>
+            
+
+            <div class="menubar">
+                <div id="menu" onclick="onClickMenu()">
+                     <!-- serve para criação do menu hamburguer -->
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+
+                <ul class="nav" id="nav">
+                     <!--menu para a versão mobile com hamburguer -->
+                     <li><a href="/pages/nossaloja/index.html"> Nossa Loja</a></li>
+                     <li><a href="/pages/quemsomos/index.html">Quem Somos </a></li>
+                     <li><a href="/pages/oquefazemos/">Oque Fazemos</a></li>
+                     <li><a href="/pages/catalogo/index.html">Catalogo</a></li>
+                </ul>
+
+                <div class="menu-bg" id="menu-bg">
+
+                </div>
+                
+            </div>
+        </nav>  
+    </header>
+
+
+    <main>
+        <section id="login">
+            <a href="/login-register/register/index.html"><button id="CD" >Cadastrar-se</button></a>
+            <a href="/login-register/login/index.html"><button id="LG" >login</button></a>
+            <button id="SR" onclick="sair()">Sair</button>
+            </div>
+            
+        </section>
+
+        <section id="conteudo"> 
+            <h1 id="title">Nossa Loja</h1>
+            <h2>
+                Olá, seja bem vindo a nossa gráfica. Aqui fazemos Impressões em papel, em tecido, Talões numerados, Cardápio em papel, Calendário de Mesa com Wire-o.
+            </h2>
+
+            <h3>O que são os Talões Numerados?</h3>
+            <p>
+                Os Talões Numerados são Blocos personalizados que permitem a estabelecimentos comerciais manter controle sobre pedidos e orçamentos. O produto está disponível em dois formatos - Simples ou Autocopiativo - e é perfeito para ajudar a organizar o fluxo de vendas, já que especifica com detalhes os produtos e serviços prestados pelo estabelecimento.
+            </p>
+
+            <h3>Quais são os modelos de Talões Numerados disponíveis na Gráfica?</h3>
+            <p>
+                Nós oferecemos dois modelos de Talões Numerados personalizados: o simples, que é ideal para orçamentos, emissão e controle de pedidos, e o Talão Numerado Autocopiativo, disponível nas opções de duas ou três vias, indicado para pedidos e receituários.
+            </p>
+
+            <h3>Para quem oferecer os Talões Numerados?</h3>
+            <p>
+                Os Talões Numerados são indicados principalmente para comércios dos mais variados segmentos, mas também tem alta demanda para clínicas e hospitais utilizarem como receituário. Basta elaborar a arte gráfica de acordo com a sua necessidade!
+            </p>
+
+            <h3>O que são Cardápios Personalizados?</h3>
+            <p>
+                Os Cardápios Personalizados são materiais gráficos que têm a função de informar sobre alimentos e bebidas servidos em estabelecimentos gastronômicos, ao mesmo tempo em que devem refletir a personalidade do ambiente. Além disso, os Cardápios facilitam o atendimento e incentivam o consumo por meio de imagens e descrições dos produtos em uma impressão impecável
+            </p>
+
+            <h3>Para quem oferecer Cardápios Personalizados?</h3>
+            <p>
+                Por serem totalmente personalizáveis, os Cardápios combinam com todos os tipos de estabelecimentos do setor gastronômico, desde pequenos bares até grandes restaurantes. São ideais para todos os locais que desejam proporcionar aos clientes um atendimento de qualidade, conquistando consumidores por meio de uma boa apresentação de seus produtos.
+            </p>
+
+            <h3>O que é um Calendário de Mesa com Wire-o?</h3>
+            <p>
+                O Calendário de Mesa com Wire-o é um modelo de Calendário que possui o sofisticado acabamento de Wire-o já incluso, ao invés do tradicional espiral, proporcionando maior facilidade ao virar as páginas, e deixando o calendário de mesa mais moderno e atrativo.
+            </p>
+
+            <h3>Como personalizar o Calendário de Mesa com Wire-o?</h3>
+            <p>
+                Para realizar a personalização do Calendário de Mesa com Wire-o é importantíssimo que seja utilizado o gabarito do produto, afinal ele contém todas as indicações para orientar a montagem das artes gráficas das 12 páginas do produto (referente aos 12 meses do ano). A base deste impresso é padrão e a personalização pode ser feita somente nas folhas.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="number">
+                <img src="/images/telefone.png" alt="">
+
+                <p>(11)2222-3333</p>
+
+            </div>
+
+            <div class="adress">
+                <img src="/images/gps.png" alt="">
+                <p> Bairro: Terra | Rua Itália | Número 999</p>
+            </div>
+
+            <div class="email">
+                <img src="/images/email.png" alt="">
+                <p>contato@lupodiroma.com.br</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="/js/menu.js"></script>
+    <script src="/js/validation.js"></script>
+</body>

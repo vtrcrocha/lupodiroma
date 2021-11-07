@@ -1,0 +1,118 @@
+body{
+    font-family: "Sen", sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.slider{
+    max-width: 50%;
+    height: 40vh;
+    position: relative;   
+    
+   
+}
+.slider img {
+    
+    margin-left: 30px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    transition: opacity 800ms;
+    
+}
+.slider img.selected{
+    opacity: 1;
+}
+
+
+
+#buttons{
+    margin-top: 40px;
+    display: block;
+    margin: auto;
+    
+}
+#buttons a{
+    text-decoration: none;
+}
+#buttons button{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: #00B04D;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #fff;
+}
+#FP{
+    margin: auto;
+    margin-top: 100px;
+}
+#PV{
+    margin-top: 120px;
+}
+#buttons button:hover{
+   transition: .5s;
+    background-color: #600000;
+    
+}
+
+
+
+@media screen and (max-width: 800px){
+    .slider{
+        max-width: 100%;       
+        margin-top: 50px;
+    }
+    .slider img {
+        margin-left: 25px;
+        margin-right: 25px;
+        opacity: 0;
+        position: absolute;
+        width: 90%;
+        
+    }    
+    .part{
+        margin-right: 0px;
+    }
+    #login{
+        display: block;
+    }
+    
+
+    #main{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    #login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+        
+    }
+    #login button{
+        margin-right: 0px;
+        margin-top: 25px;
+        float: none;
+
+    }
+    
+    #FP{
+        margin: auto;
+        margin-top: 50px;
+    }
+    #PV{
+        margin-top: 60px;
+    }
+}

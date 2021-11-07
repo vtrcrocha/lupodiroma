@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/footer.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/rome.png" type="image/x-icon">
+
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sen:wght@400;700;800&display=swap');
+    </style>
+
+    
+
+
+    <title>Roma Di Lupa | Registrar </title>
+</head>
+<body>
+    <header class="header">
+        <!--Criação do container para a navegação do site- Victor Souza  -->
+        <a href="/index.html"><img id="logo" src="/images/logo-grafica.svg" alt=""></a>
+        
+        <nav class="navbar">
+
+           
+             <!--menu para a versão de computador -->
+            <div>
+                <ul class="nav-pc" id="nav-pc">
+                    <li><a href="/pages/nossaloja/index.html"> Nossa Loja</a></li>
+                    <li><a href="/pages/quemsomos/index.html">Quem Somos </a></li>
+                    <li><a href="/pages/oquefazemos/">Oque Fazemos</a></li>
+                    <li><a href="/pages/catalogo/index.html">Catalogo</a></li>
+                </ul>
+            </div>
+            
+
+            <div class="menubar">
+                <div id="menu" onclick="onClickMenu()">
+                     <!-- serve para criação do menu hamburguer -->
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+
+                <ul class="nav" id="nav">
+                     <!--menu para a versão mobile com hamburguer -->
+                    <li><a href="/index.html"> Nossa Loja</a></li>
+                    <li><a href="#about">Quem Somos </a></li>
+                    <li><a href="#location">Oque Fazemos</a></li>
+                    <li><a href="/pages/cardapio/index.html">Catalogo</a></li>
+                </ul>
+
+                <div class="menu-bg" id="menu-bg">
+
+                </div>
+                
+            </div>
+        </nav>  
+    </header>
+
+
+    <main>
+        <section id="conteudo"> 
+            <h1 id="title">login</h1>
+            
+            <section class="form">
+                <form onsubmit="singUp()">
+                    
+                   
+                    <input type="text" id="usertoken" placeholder="Usuario" required><br>
+    
+                    
+    
+                    <input type="password" id="pwdtoken" placeholder="Senha" required ><br>
+    
+                    <button type="submit" id="enviar" onclick="validation()">Login</button>
+                    <label for="msg" >
+                        não tem cadastro <a href="/login-register/register/index.html">clique aqui </a>
+                    </label>
+    
+                </form>
+            </section>
+
+
+
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="number">
+                <img src="/images/telefone.png" alt="">
+
+                <p>(11)2222-3333</p>
+
+            </div>
+
+            <div class="adress">
+                <img src="/images/gps.png" alt="">
+                <p> Bairro: Terra | Rua Itália | Número 999</p>
+            </div>
+
+            <div class="email">
+                <img src="/images/email.png" alt="">
+                <p>contato@lupodiroma.com.br</p>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="/js/menu.js"></script>
+    <script src="/js/user.js"></script>
+</body>
